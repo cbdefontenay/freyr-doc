@@ -1265,6 +1265,7 @@ name = "documentation"
 version = "0.1.0"
 dependencies = [
  "dioxus",
+ "freyr",
 ]
 
 [[package]]
@@ -1464,6 +1465,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e13624c2627564efccf4934284bdd98cbaa14e79b0b5a141218e507b3a823456"
 dependencies = [
  "percent-encoding",
+]
+
+[[package]]
+name = "freyr"
+version = "0.1.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fd6a2ad08d7e67a851a69daab69310327f3e3c24552494d8d4996d25ad6e4cbb"
+dependencies = [
+ "dioxus",
+ "serde_json",
 ]
 
 [[package]]
