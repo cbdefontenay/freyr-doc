@@ -1,6 +1,9 @@
-use dioxus::prelude::*;
-
 use components::Navigation;
+use dioxus::prelude::*;
+use dioxus_i18n::prelude::{i18n, use_init_i18n, I18nConfig, Locale};
+use dioxus_i18n::t;
+use dioxus_i18n::unic_langid::langid;
+use views::About;
 use views::Home;
 mod components;
 mod views;
@@ -11,11 +14,13 @@ enum Route {
     #[layout(Navigation)]
     #[route("/")]
     Home {},
+    #[route("/about")]
+    About {},
 }
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
-const MAIN_CSS: Asset = asset!("/assets/styling/main.css");
 const TAILWIND_CSS: Asset = asset!("/assets/tailwind.css");
+const MAIN: Asset = asset!("/assets/main.css");
 
 fn main() {
     launch(App);
@@ -23,10 +28,23 @@ fn main() {
 
 #[component]
 fn App() -> Element {
+    let i18 = use_init_i18n(|| {
+        I18nConfig::new(langid!("en-US"))
+            .with_locale(Locale::new_static(
+                langid!("en-UK"),
+                include_str!("./translations/en-UK.ftl"),
+            ))
+            .with_locale(Locale::new_static(
+                langid!("fr-FR"),
+                include_str!("./translations/fr-FR.ftl"),
+            ))
+    });
 
     rsx! {
         document::Link { rel: "icon", href: FAVICON }
         document::Link { rel: "stylesheet", href: TAILWIND_CSS }
+        document::Link { rel: "stylesheet", href: MAIN }
+        document::Title { "Freyr" }
 
         Router::<Route> {}
     }
