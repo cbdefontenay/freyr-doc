@@ -1,27 +1,50 @@
-use crate::Route;
 use dioxus::prelude::*;
+use dioxus_i18n::prelude::i18n;
 use dioxus_i18n::t;
+use dioxus_i18n::unic_langid::langid;
 use freyr::prelude::*;
+use crate::Route;
 
 #[component]
 pub fn Navigation() -> Element {
-    const LOGO: Asset = asset!("/assets/header.svg");
+    let mut i18n = i18n();
 
-    let navbar_logo_config = NavbarWithLogoConfig {
-        background_color: ColorScheme::Freyr,
-        nav_items: vec![t!("home"), t!("about"), t!("components")],
-        nav_links: vec!["/".to_string(), "/about".to_string(), "/components".to_string()],
-        nav_item_color: NavItemsColor::Light,
-        icon_color: IconColor::White,
-        logo_url: String::from("/"),
-        logo_src: LOGO,
-        logo_alt: String::from("logo"),
+    let change_to_english = move |_| i18n.set_language(langid!("en-US"));
+    let change_to_french = move |_| i18n.set_language(langid!("fr-FR"));
+
+    let dropdown_items = vec!["English".to_string(), "Français".to_string()];
+
+    let onclick_handlers: Vec<EventHandler<MouseEvent>> = vec![
+        EventHandler::new(change_to_english),
+        EventHandler::new(change_to_french),
+    ];
+
+    let config_dropdown = DropdownButtonConfig {
+        title: t!("languages"),
+        labels: dropdown_items,
+        onclick: onclick_handlers,
+        background_color: DropdownColorScheme::Dark,
+        title_color: DropdownTitleColor::Light,
+        labels_color: DropdownLabelsColor::Light,
+        hover_color: DropdownHoverColor::Custom("#03346E"),
     };
 
+    let navbar_config = NavbarConfig {
+        background_color: ColorScheme::Freyr,
+        nav_header: String::from("Freyr"),
+        nav_items: vec![
+            t!("home"),
+        ],
+        nav_links: vec![
+            "/".to_string(),
+        ],
+        nav_item_color: NavItemsColor::Light,
+        icon_color: IconColor::White,
+    };
+
+
     rsx! {
-        div { class: "h-20",
-            NavbarWithLogo { navbar_logo_config }
-        }
-        Outlet::<Route> {}
-    }
+       NavbarDropdownButtons { navbar_config, config_dropdown }
+       Outlet::<Route> {}
+   }
 }

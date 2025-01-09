@@ -5,7 +5,7 @@ use dioxus_i18n::t;
 pub fn About() -> Element {
     rsx!{
         div {
-            p { {t!("about_page")} }
+            p { "About Page" }
         }
     }
 }

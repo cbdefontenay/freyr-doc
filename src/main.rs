@@ -20,7 +20,6 @@ enum Route {
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
 const TAILWIND_CSS: Asset = asset!("/assets/tailwind.css");
-const MAIN: Asset = asset!("/assets/main.css");
 
 fn main() {
     launch(App);
@@ -31,8 +30,8 @@ fn App() -> Element {
     let i18 = use_init_i18n(|| {
         I18nConfig::new(langid!("en-US"))
             .with_locale(Locale::new_static(
-                langid!("en-UK"),
-                include_str!("./translations/en-UK.ftl"),
+                langid!("en-US"),
+                include_str!("translations/en-US.ftl"),
             ))
             .with_locale(Locale::new_static(
                 langid!("fr-FR"),
@@ -43,7 +42,6 @@ fn App() -> Element {
     rsx! {
         document::Link { rel: "icon", href: FAVICON }
         document::Link { rel: "stylesheet", href: TAILWIND_CSS }
-        document::Link { rel: "stylesheet", href: MAIN }
         document::Title { "Freyr" }
 
         Router::<Route> {}
