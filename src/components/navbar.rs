@@ -1,5 +1,5 @@
 use dioxus::prelude::*;
-use dioxus_i18n::prelude::i18n;
+use dioxus_i18n::prelude::*;
 use dioxus_i18n::t;
 use dioxus_i18n::unic_langid::langid;
 use freyr::prelude::*;
@@ -20,7 +20,7 @@ pub fn Navigation() -> Element {
     ];
 
     let config_dropdown = DropdownButtonConfig {
-        title: t!("languages"),
+        title: "Languages".to_string(),
         labels: dropdown_items,
         onclick: onclick_handlers,
         background_color: DropdownColorScheme::Dark,
@@ -34,9 +34,11 @@ pub fn Navigation() -> Element {
         nav_header: String::from("Freyr"),
         nav_items: vec![
             t!("home"),
+            t!("about"),
         ],
         nav_links: vec![
             "/".to_string(),
+            "/about".to_string(),
         ],
         nav_item_color: NavItemsColor::Light,
         icon_color: IconColor::White,

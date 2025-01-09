@@ -1,1 +1,2 @@
 home = Home
+about = About

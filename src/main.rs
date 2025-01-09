@@ -27,11 +27,11 @@ fn main() {
 
 #[component]
 fn App() -> Element {
-    let i18 = use_init_i18n(|| {
+    use_init_i18n(|| {
         I18nConfig::new(langid!("en-US"))
             .with_locale(Locale::new_static(
                 langid!("en-US"),
-                include_str!("translations/en-US.ftl"),
+                include_str!("./translations/en-US.ftl"),
             ))
             .with_locale(Locale::new_static(
                 langid!("fr-FR"),

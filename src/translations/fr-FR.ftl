@@ -1,1 +1,2 @@
 home = Accueil
+about = About
