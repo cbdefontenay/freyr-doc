@@ -20,7 +20,7 @@ pub fn Navigation() -> Element {
     ];
 
     let config_dropdown = DropdownButtonConfig {
-        title: "Languages".to_string(),
+        title: t!("language"),
         labels: dropdown_items,
         onclick: onclick_handlers,
         background_color: DropdownColorScheme::Dark,
@@ -46,7 +46,7 @@ pub fn Navigation() -> Element {
 
 
     rsx! {
-       NavbarDropdownButtons { navbar_config, config_dropdown }
-       Outlet::<Route> {}
-   }
+        NavbarDropdownButtons { navbar_config, config_dropdown }
+        Outlet::<Route> {}
+    }
 }

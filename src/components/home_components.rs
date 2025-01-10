@@ -4,21 +4,9 @@ use dioxus::prelude::*;
 pub fn HomeComponents(title: String) -> Element {
     rsx! {
         div { class: "
-                bg-slate-100
-                rounded-lg
-                shadow-md
-                p-4
-                transition-transform
-                transform
-                hover:scale-105
-                hover:shadow-lg
-                w-80
-                h-40
-                max-w-full
-                sm:w-96
-                sm:h-48
-            ",
-            h2 { class: "text-lg font-bold text-gray-800", "{title}" }
+                rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:shadow-xl w-full h-40
+                sm:w-72 lg:w-80 flex items-center justify-center bg-[#3795BD]",
+            h2 { class: "text-xl font-semibold text-slate-100 text-center", "{title}" }
         }
     }
 }

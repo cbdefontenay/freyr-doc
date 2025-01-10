@@ -4,6 +4,7 @@ use dioxus_i18n::prelude::{i18n, use_init_i18n, I18nConfig, Locale};
 use dioxus_i18n::t;
 use dioxus_i18n::unic_langid::langid;
 use views::About;
+use views::ButtonPage;
 use views::Home;
 mod components;
 mod views;
@@ -16,6 +17,8 @@ enum Route {
     Home {},
     #[route("/about")]
     About {},
+    #[route("/buttons")]
+    ButtonPage {},
 }
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
@@ -40,10 +43,9 @@ fn App() -> Element {
     });
 
     rsx! {
-        document::Link { rel: "icon", href: FAVICON }
-        document::Link { rel: "stylesheet", href: TAILWIND_CSS }
-        document::Title { "Freyr" }
-
-        Router::<Route> {}
-    }
+           document::Link { rel: "icon", href: FAVICON }
+           document::Link { rel: "stylesheet", href: TAILWIND_CSS }
+           document::Title { "Freyr" }
+    Router::<Route> {}
+       }
 }
