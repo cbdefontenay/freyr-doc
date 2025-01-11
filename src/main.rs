@@ -6,6 +6,7 @@ use dioxus_i18n::unic_langid::langid;
 use views::About;
 use views::ButtonPage;
 use views::Home;
+use views::NavbarPage;
 mod components;
 mod views;
 
@@ -19,10 +20,13 @@ enum Route {
     About {},
     #[route("/buttons")]
     ButtonPage {},
+    #[route("/navbar-component")]
+    NavbarPage {},
 }
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
 const TAILWIND_CSS: Asset = asset!("/assets/tailwind.css");
+const MAIN: Asset = asset!("/assets/main.css");
 
 fn main() {
     launch(App);
@@ -43,9 +47,10 @@ fn App() -> Element {
     });
 
     rsx! {
-           document::Link { rel: "icon", href: FAVICON }
-           document::Link { rel: "stylesheet", href: TAILWIND_CSS }
-           document::Title { "Freyr" }
-    Router::<Route> {}
-       }
+        document::Link { rel: "icon", href: FAVICON }
+        document::Link { rel: "stylesheet", href: TAILWIND_CSS }
+        document::Link { rel: "stylesheet", href: MAIN }
+        document::Title { "Freyr" }
+        Router::<Route> {}
+    }
 }

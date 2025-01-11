@@ -4,5 +4,4 @@ language = Langues
 
 header_home = Components disponibles
 button_component_card = Bouttons
-
-button_page_url = /bouttons
+navbar_component_card = Barre de navigation
