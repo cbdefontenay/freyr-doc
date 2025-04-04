@@ -44,7 +44,7 @@ pub fn ButtonPage() -> Element {
 
                     BasicButton {
                         color: ButtonColor::Freyr,
-                        label: &routing_label,
+                        label: routing_label,
                         link: Some(ButtonUrl { url: "/".to_string() })
                     }
                 }
@@ -59,7 +59,7 @@ pub fn ButtonPage() -> Element {
 
                     BasicButton {
                         color: ButtonColor::Success,
-                        label: &success_label,
+                        label: success_label,
                         link: Some(ButtonUrl { url: "/".to_string() })
                     }
                 }
@@ -80,7 +80,7 @@ pub fn ButtonPage() -> Element {
 
                     BasicButton {
                         color: ButtonColor::Freyr,
-                        label: &no_routing_label,
+                        label: no_routing_label,
                         link: None
                     }
                 }
