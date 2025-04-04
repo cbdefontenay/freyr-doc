@@ -7,6 +7,7 @@ use views::About;
 use views::ButtonPage;
 use views::Home;
 use views::NavbarPage;
+use views::TabsPage;
 mod components;
 mod views;
 
@@ -22,6 +23,8 @@ enum Route {
     ButtonPage {},
     #[route("/navbar-component")]
     NavbarPage {},
+    #[route("/tabs-component")]
+    TabsPage {},
 }
 
 // const FAVICON: Asset = asset!("/assets/favicon.ico");

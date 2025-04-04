@@ -20,8 +20,8 @@ pub fn Home() -> Element {
                     Link { to: Route::NavbarPage {}, class: "w-full",
                         HomeComponents { title: {t!("navbar_component_card")} }
                     }
-                    Link { to: Route::ButtonPage {}, class: "w-full",
-                        HomeComponents { title: {t!("button_component_card")} }
+                    Link { to: Route::TabsPage {}, class: "w-full",
+                        HomeComponents { title: {t!("tabs_component_card")} }
                     }
                 }
             }
