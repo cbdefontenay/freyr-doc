@@ -19,7 +19,7 @@ pub fn TabsPage() -> Element {
             img {
                 src: IMAGE,
                 class: "w-64 h-64 object-cover",
-                alt: t!("tabs_luebeck_alt")
+                alt: "Lübeck"
             }
             p {
                 class: "mt-4 text-gray-600 text-center",
