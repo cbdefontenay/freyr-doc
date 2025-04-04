@@ -24,8 +24,8 @@ enum Route {
     NavbarPage {},
 }
 
-const FAVICON: Asset = asset!("/assets/favicon.ico");
-const TAILWIND_CSS: Asset = asset!("/assets/output.css");
+// const FAVICON: Asset = asset!("/assets/favicon.ico");
+const TAILWIND_CSS: Asset = asset!("./assets/output.css");
 const MAIN: Asset = asset!("/assets/main.css");
 
 fn main() {
@@ -47,7 +47,7 @@ fn App() -> Element {
     });
 
     rsx! {
-        document::Link { rel: "icon", href: FAVICON }
+        // document::Link { rel: "icon", href: FAVICON }
         document::Link { rel: "stylesheet", href: TAILWIND_CSS }
         document::Link { rel: "stylesheet", href: MAIN }
         document::Title { "Freyr" }
