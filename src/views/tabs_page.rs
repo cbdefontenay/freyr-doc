@@ -47,7 +47,7 @@ pub fn TabsPage() -> Element {
 
     rsx! {
         div { class: "flex flex-col items-center mt-20 w-full py-10",
-            h2 { class: "", {t!("tabs_page_header")} }
+            h2 { class: "text-lg", {t!("tabs_page_header")} }
             div { class: "mt-20 flex flex-col items-center justify-center",
                 Tabs {
                     tabs_names,
