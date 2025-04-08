@@ -29,7 +29,7 @@ tabs_luebeck = Lübeck
 tabs_otto = Otton
 tabs_luebeck_title = Ville Hanséatique
 tabs_luebeck_alt = Paysage urbain de Lübeck
-tabs_luebeck_description = Lübeck, la Reine de la Ligue Hanséatique, est une ville historique allemande connue pour son architecture gothique en brique. Fondée en 1143, elle devint la ville principale de la Ligue Hanséatique et reste un site du patrimoine mondial de l'UNESCO avec son centre médiéval bien préservé.
+tabs_luebeck_description = Lübeck, la Reine de la Ligue Hanséatique, est une ville historique allemande connue pour son architecture en brique, commune aux villes du nord de l'Europe. Fondée en 1143, elle devint la ville principale de la Ligue Hanséatique et reste un site du patrimoine mondial de l'UNESCO avec son centre médiéval bien préservé.
 
 tabs_otto_title = Otton le Grand
 tabs_otto_description = Otton Ier (912–973), connu sous le nom d'Otton le Grand, fut le premier empereur du Saint-Empire romain germanique. Figure clé dans l'unification de l'Allemagne et de l'Italie, il renforça l'Église et établit la dynastie ottonienne, jetant les bases du Saint-Empire romain médiéval.
