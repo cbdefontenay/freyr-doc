@@ -1,3 +1,4 @@
+use crate::components::CodeBlock;
 use dioxus::prelude::*;
 use dioxus_i18n::t;
 use freyr::prelude::*;
@@ -56,19 +57,37 @@ pub fn TabsPage() -> Element {
     ];
 
     rsx! {
-        div {
-            class: "min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-20 px-4",
-            div {
-                class: "max-w-4xl mx-auto flex flex-col items-center",
-                h2 {
-                    class: "text-2xl font-bold text-gray-800 mb-2 font-serif",
-                    {t!("tabs_page_header")}
+        div { class: "min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-20 px-4",
+            div { class: "max-w-4xl mx-auto flex flex-col items-center",
+
+                div { class: "w-full mt-12 bg-white p-6 rounded-xl shadow-md",
+                    h3 { class: "text-xl font-bold text-gray-800 mb-4", "Implementation Example" }
+                    CodeBlock {
+                        code: r#"// Define tab names and content
+const IMAGE: Asset = asset!("/assets/city.jpg");
+let tabs = vec!["Puffin", "Otto I", "Barbarossa"];
+
+let content = vec![
+    rsx! {
+        img { src: IMAGE, class: "w-64 h-64" }
+        p { "Puffin description..." }
+    },
+    rsx! { p { "Otto I description..." } },
+    rsx! { p { "Barbarossa description..." } }
+];
+
+// Render the tabs
+rsx! {
+    Tabs {
+        tabs_names: tabs,
+        custom_texts: Some(content),
+        custom_color: TabsColor::Freyr
+    }
+}"#.to_string(),
+                    }
                 }
-                div {
-                    class: "w-full border-b-2 border-gray-200 max-w-xs mb-10"
-                }
-                div {
-                    class: "mt-10 w-full flex justify-center",
+
+                div { class: "mt-10 w-full flex justify-center",
                     Tabs {
                         tabs_names,
                         custom_texts: Some(custom_text),
