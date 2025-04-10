@@ -23,7 +23,7 @@ pub fn Navigation() -> Element {
         title: t!("language"),
         labels: dropdown_items,
         onclick: onclick_handlers,
-        background_color: DropdownColorScheme::Dark,
+        background_color: DropdownColorScheme::Freyr,
         title_color: DropdownTitleColor::Light,
         labels_color: DropdownLabelsColor::Light,
         hover_color: DropdownHoverColor::Custom("#03346E"),
