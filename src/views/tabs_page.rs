@@ -61,7 +61,7 @@ pub fn TabsPage() -> Element {
             div { class: "max-w-4xl mx-auto flex flex-col items-center",
 
                 div { class: "w-full mt-12 bg-white p-6 rounded-xl shadow-md",
-                    h3 { class: "text-xl font-bold text-gray-800 mb-4", "Implementation Example" }
+                    h3 { class: "text-xl font-bold text-gray-800 mb-4", {t!("tabs_implementation_title")} }
                     CodeBlock {
                         code: r#"// Define tab names and content
 const IMAGE: Asset = asset!("/assets/city.jpg");

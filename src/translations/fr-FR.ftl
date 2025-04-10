@@ -37,3 +37,5 @@ tabs_otto_description = Otton Ier (912–973), connu sous le nom d'Otton le Gran
 tabs_barbarossa_title = Frédéric Barberousse
 tabs_barbarossa_description = Frédéric Barberousse (1122–1190) fut l'un des plus célèbres empereurs du Saint-Empire romain germanique. Réputé pour son ambition et son charisme, il chercha à restaurer la gloire de l'Empire romain, menant des campagnes en Italie et participant à la troisième croisade.
 tabs_page_header = Voici à quoi ressemble un onglet personnalisé :
+
+tabs_implementation_title = Exemple d'utilisation :

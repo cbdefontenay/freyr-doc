@@ -38,3 +38,5 @@ tabs_otto_description = Otto I (912–973), known as Otto the Great, was the fir
 tabs_barbarossa_title = Frederick Barbarossa
 tabs_barbarossa_description = Frederick Barbarossa (1122–1190) was one of the most famous Holy Roman Emperors. Renowned for his ambition and charisma, he sought to restore the glory of the Roman Empire, leading campaigns in Italy and participating in the Third Crusade.
 tabs_page_header = Here is how a custom tab looks like:
+
+tabs_implementation_title = Implementation Example
