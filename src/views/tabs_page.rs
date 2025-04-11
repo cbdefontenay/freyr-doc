@@ -70,7 +70,7 @@ let tabs = vec!["Puffin", "Otto I", "Barbarossa"];
 let content = vec![
     rsx! {
         img { src: IMAGE, class: "w-64 h-64" }
-        p { "Puffin description..." }
+        p { "Lübeck description..." }
     },
     rsx! { p { "Otto I description..." } },
     rsx! { p { "Barbarossa description..." } }
