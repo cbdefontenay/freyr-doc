@@ -11,12 +11,14 @@ pub fn Navigation() -> Element {
 
     let change_to_english = move |_| i18n.set_language(langid!("en-US"));
     let change_to_french = move |_| i18n.set_language(langid!("fr-FR"));
+    let change_to_german = move |_| i18n.set_language(langid!("de-DE"));
 
-    let dropdown_items = vec!["English".to_string(), "Français".to_string()];
+    let dropdown_items = vec!["English".to_string(), "Français".to_string(), "Deutsch".to_string()];
 
     let onclick_handlers: Vec<EventHandler<MouseEvent>> = vec![
         EventHandler::new(change_to_english),
         EventHandler::new(change_to_french),
+        EventHandler::new(change_to_german),
     ];
 
     let config_dropdown = DropdownButtonConfig {

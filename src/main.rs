@@ -47,6 +47,10 @@ fn App() -> Element {
                 langid!("fr-FR"),
                 include_str!("./translations/fr-FR.ftl"),
             ))
+            .with_locale(Locale::new_static(
+                langid!("de-DE"),
+                include_str!("./translations/de-DE.ftl"),
+            ))
     });
 
     rsx! {

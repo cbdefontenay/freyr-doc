@@ -39,3 +39,7 @@ tabs_barbarossa_description = Frédéric Barberousse (1122–1190) fut l'un des 
 tabs_page_header = Voici à quoi ressemble un onglet personnalisé :
 
 tabs_implementation_title = Exemple d'utilisation :
+
+navbar_implementation_title = Exemple d'utilisation de la barre de navigation standarde :
+navbar_preview_title = Barre de navigation standarde :
+navbar_preview_subtitle = Veuillez noter que si vous testez la réactivité de cette barre de navigation et activez le menu hamburger, cela pourrait ne pas bien s'afficher. C’est parce qu’elle a un index z de z-99, comme la barre de navigation actuelle de ce site, qui est la même. Veuillez donc tester la barre de navigation de ce site pour en vérifier le comportement.

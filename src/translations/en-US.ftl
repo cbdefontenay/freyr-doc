@@ -40,3 +40,7 @@ tabs_barbarossa_description = Frederick Barbarossa (1122–1190) was one of the 
 tabs_page_header = Here is how a custom tab looks like:
 
 tabs_implementation_title = Implementation Example
+
+navbar_implementation_title = Standart navbar implementation example:
+navbar_preview_title = standart navbar preview:
+navbar_preview_subtitle = Please note that if you try the responsivness of this navbar and activate the hamburger menu, this may not look good, that is because it has an index of z-99, as the current navbar of this website, wich is the same one, so please try the navbar of this website to test it.
