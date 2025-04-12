@@ -43,3 +43,11 @@ tabs_implementation_title = Exemple d'utilisation :
 navbar_implementation_title = Exemple d'utilisation de la barre de navigation standarde :
 navbar_preview_title = Barre de navigation standarde :
 navbar_preview_subtitle = Veuillez noter que si vous testez la réactivité de cette barre de navigation et activez le menu hamburger, cela pourrait ne pas bien s'afficher. C’est parce qu’elle a un index z de z-99, comme la barre de navigation actuelle de ce site, qui est la même. Veuillez donc tester la barre de navigation de ce site pour en vérifier le comportement.
+
+freyr_title = Découvrez Freyr
+freyr_subtitle = Une petite bibliothèque UI conviviale pour les apps web Dioxus
+freyr_about_intro = Dans la mythologie nordique, Freyr est le dieu du soleil, de la paix et de la croissance — souvent associé à la beauté et à la prospérité.
+freyr_about_what_is_it = Freyr est une petite bibliothèque de composants pour Dioxus offrant des éléments préconçus comme des boutons, barres de navigation et menus déroulants, pensés pour la simplicité.
+freyr_about_why_built = Ce projet a été créé pour le plaisir, dans le but de proposer des composants légers et faciles à utiliser pour concevoir rapidement une belle interface.
+
+freyr_about_doc = Voir la documentation ici

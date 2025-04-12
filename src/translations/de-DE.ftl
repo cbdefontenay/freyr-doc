@@ -4,8 +4,8 @@ language = Sprachen
 
 header_home = Verfügbare Komponenten
 button_component_card = Buttons
-navbar_component_card = Navigationsleiste
-freyr_button_page_header = Button-Anwendungsbeispiele
+navbar_component_card = Navbar
+freyr_button_page_header = Buttons - Anwendungsbeispiele
 freyr_button_text = Hier finden Sie Beispiele für die verschiedenen Anwendungsfälle der Buttons:
 
 button_with_routing_title = 🔗 Button mit Navigation
@@ -45,3 +45,11 @@ navbar_implementation_title = Standard Navbar Implementierung:
 navbar_preview_title = Standard Navbar Vorschau:
 
 navbar_preview_subtitle = Bitte beachten Sie, dass das Hamburger-Menü möglicherweise nicht korrekt angezeigt wird, wenn Sie die Reaktionsfähigkeit dieser Navigationsleiste testen. Das liegt daran, dass sie einen z-Index von z-99 hat – genau wie die aktuelle Navigationsleiste dieser Website, da es sich um dieselbe handelt. Bitte testen Sie daher die Navigationsleiste dieser Website, um das Verhalten zu überprüfen.
+
+freyr_title = Lerne Freyr kennen
+freyr_subtitle = Ein leichtgewichtiges UI-Kit für Dioxus-Webanwendungen
+freyr_about_intro = In der nordischen Mythologie ist Freyr der Gott des Sonnenscheins, des Friedens und des Wachstums – oft mit Schönheit und Wohlstand verbunden.
+freyr_about_what_is_it = Freyr ist eine kleine UI-Komponentenbibliothek für Dioxus mit vorgefertigten Elementen wie Buttons, Navigationsleisten und Dropdown-Menüs, gestaltet für Klarheit und Flexibilität.
+freyr_about_why_built = Dieses Projekt wurde als kleines Hobby gestartet, um einfache und ansprechende Komponenten bereitzustellen, die den Einstieg in Dioxus erleichtern.
+
+freyr_about_doc = Hier auch die Dokumentation sehen

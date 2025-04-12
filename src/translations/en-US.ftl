@@ -44,3 +44,11 @@ tabs_implementation_title = Implementation Example
 navbar_implementation_title = Standart navbar implementation example:
 navbar_preview_title = standart navbar preview:
 navbar_preview_subtitle = Please note that if you try the responsivness of this navbar and activate the hamburger menu, this may not look good, that is because it has an index of z-99, as the current navbar of this website, wich is the same one, so please try the navbar of this website to test it.
+
+freyr_title = Meet Freyr
+freyr_subtitle = A light and friendly UI kit for Dioxus web apps
+freyr_about_intro = In Norse mythology, Freyr is the god of sunshine, peace, and growth — often associated with beauty and prosperity.
+freyr_about_what_is_it = Freyr is a small UI component library for Dioxus that provides prebuilt elements like buttons, navbars, and dropdowns, all styled with simplicity and flexibility in mind.
+freyr_about_why_built = This crate was created as a fun side project, aiming to offer lightweight, easy-to-use components that help developers get started quickly with good-looking UI.
+
+freyr_about_doc = See documentation also here
