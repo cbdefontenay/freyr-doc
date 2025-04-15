@@ -15,7 +15,7 @@ pub fn NavbarPage() -> Element {
     };
 
     rsx! {
-        div { class: "min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-20 px-4",
+        div { class: "min-h-screen py-20 px-4",
             div { class: "max-w-4xl mx-auto flex flex-col items-center",
                 // Code Block Section
                 div { class: "w-full bg-white p-6 rounded-xl shadow-md mb-8",
