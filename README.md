@@ -1,4 +1,4 @@
-# Freyr crate for Dioxus showcase
+# Freyr crate for Dioxus: showcase website + Code samples
 
 This is a simple website build with Dioxus to showcase the UI components from the _freyr_ crate.
 
