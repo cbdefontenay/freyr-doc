@@ -9,13 +9,13 @@ pub fn CarouselPage() -> Element {
     const MARS: Asset = asset!("/assets/images/mars.jpg");
     const PLUTO: Asset = asset!("/assets/images/pluto.jpg");
     const SATELLITE: Asset = asset!("/assets/images/satellite.jpg");
-    const PLUTO2: Asset = asset!("/assets/images/pluto.jpg");
+    const MOON: Asset = asset!("./assets/images/moon.jpg");
 
     let carousel_items = vec![
         CarouselItem::new(MARS, String::from("Mars")),
         CarouselItem::new(PLUTO, String::from("Pluto")),
         CarouselItem::new(SATELLITE, String::from("A satellite in orbit")),
-        CarouselItem::new(PLUTO2, String::from("Pluto too")),
+        CarouselItem::new(MOON, String::from("The Moon")),
     ];
 
     let alt = carousel_items.clone();

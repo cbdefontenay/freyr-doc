@@ -11,10 +11,10 @@ pub fn Home() -> Element {
                 div { class: "text-center mb-10 md:mb-20",
                     div {
                         h1 { class: "text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-5",
-                            "Welcome to Freyr"
+                            {t!("welcome_header")}
                         }
                         h4 { class: "text-base sm:text-lg md:text-xl text-slate-300 italic mb-14",
-                            "A simple UI component library for Dioxus"
+                            {t!("welcome_subtitle")}
                         }
                     }
                     h1 { class: "text-xl sm:text-2xl md:text-3xl font-mono font-bold text-indigo-400 mb-20",

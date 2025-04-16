@@ -2,6 +2,9 @@ home = Startseite
 about = Über
 language = Sprachen
 
+welcome_header = Willkommen bei Freyr
+welcome_subtitle = Eine einfache UI-Komponentenbibliothek für Dioxus
+
 header_home = Verfügbare Komponenten
 button_component_card = Buttons
 navbar_component_card = Navbar
