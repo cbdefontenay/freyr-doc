@@ -52,3 +52,12 @@ freyr_about_what_is_it = Freyr is a small UI component library for Dioxus that p
 freyr_about_why_built = This crate was created as a fun side project, aiming to offer lightweight, easy-to-use components that help developers get started quickly with good-looking UI.
 
 freyr_about_doc = See documentation also here
+
+header_carousel = Carousel Components
+carousel_intro_text = At the moment there are three different carousel components:
+carousel_basic_title = The basic one (activates manually):
+carousel_code_label = Code implementation:
+carousel_numbers_title = Carousel with numbers (to go to the next image you also have to do it manually):
+carousel_numbers_code_title = Code implementation:
+carousel_timer_title = Carousel with timer (set your own timer this time):
+carousel_timer_code_title = Code implementation:

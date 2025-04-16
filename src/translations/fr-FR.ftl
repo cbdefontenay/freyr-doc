@@ -51,3 +51,12 @@ freyr_about_what_is_it = Freyr est une petite bibliothèque de composants pour D
 freyr_about_why_built = Ce projet a été créé pour le plaisir, dans le but de proposer des composants légers et faciles à utiliser pour concevoir rapidement une belle interface.
 
 freyr_about_doc = Voir la documentation ici
+
+header_carousel = Composants de carrousel
+carousel_intro_text = Il existe actuellement trois composants de carrousel différents :
+carousel_basic_title = Le carrousel de base (à activer manuellement) :
+carousel_code_label = Exemple de code :
+carousel_numbers_title = Carrousel avec numéros (pour passer à l'image suivante, vous devez aussi le faire manuellement) :
+carousel_numbers_code_title = Exemple de code :
+carousel_timer_title = Carrousel avec minuterie (définissez votre propre temps cette fois-ci) :
+carousel_timer_code_title = Exemple de code :

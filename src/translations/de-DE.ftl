@@ -53,3 +53,12 @@ freyr_about_what_is_it = Freyr ist eine kleine UI-Komponentenbibliothek für Dio
 freyr_about_why_built = Dieses Projekt wurde als kleines Hobby gestartet, um einfache und ansprechende Komponenten bereitzustellen, die den Einstieg in Dioxus erleichtern.
 
 freyr_about_doc = Hier auch die Dokumentation sehen
+
+header_carousel = Karussell-Komponenten
+carousel_intro_text = Derzeit gibt es drei verschiedene Karussell-Komponenten:
+carousel_basic_title = Die einfache Version (muss manuell aktiviert werden):
+carousel_code_label = Code-Beispiel:
+carousel_numbers_title = Karussell mit Zahlen (zum Weiterblättern muss manuell gewechselt werden):
+carousel_numbers_code_title = Code-Beispiel:
+carousel_timer_title = Karussell mit Timer (dieses Mal mit eigenem Zeitgeber):
+carousel_timer_code_title = Code-Beispiel:
