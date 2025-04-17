@@ -1,7 +1,6 @@
 use components::Navigation;
 use dioxus::prelude::*;
 use dioxus_i18n::prelude::{i18n, use_init_i18n, I18nConfig, Locale};
-use dioxus_i18n::t;
 use dioxus_i18n::unic_langid::langid;
 use views::About;
 use views::ButtonPage;
