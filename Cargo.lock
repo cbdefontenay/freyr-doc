@@ -1531,9 +1531,9 @@ dependencies = [
 
 [[package]]
 name = "freyr"
-version = "0.1.14"
+version = "0.1.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "557723177a65a0f9f9a2046e5a55b7a6c7a4bbdfba04c75907b22d9c42e6730f"
+checksum = "683f803c6c24b2c334b663408e7ae98f200d1233499b2b1d2e71ad66939cf5c0"
 dependencies = [
  "dioxus",
  "serde_json",

@@ -119,8 +119,8 @@ rsx! {
                     CarouselWithTimer {
                         items: carousel_items.clone(),
                         alt: alt.clone(),
-                        timer_seconds: 6,
-                        class: Some(String::from("w-full md:w-[600px] h-full md:h-[600px] flex justify-center rounded-lg")),
+                        timer_seconds: 5,
+                        class: Some(String::from("w-full md:w-96 h-full md:h-96 flex justify-center rounded-lg")),
                     }
                 }
                 h3 {

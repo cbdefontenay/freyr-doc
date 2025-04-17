@@ -7,7 +7,7 @@ edition = "2021"
 [dependencies]
 dioxus = { version = "0.6.3", features = ["router"] }
 dioxus-i18n = "0.4.3"
-freyr = "0.1.14"
+freyr = "0.1.16"
 
 [features]
 default = ["web"]
