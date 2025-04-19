@@ -19,7 +19,7 @@ pub fn Home() -> Element {
                         }
                         BasicButton {
                             color: ButtonColor::Freyr,
-                            label: String::from({ t!("freyr_about_doc") }),
+                            label: String::from(t!("freyr_about_doc")),
                             link: ButtonUrl {
                                 url: "https://docs.rs/freyr/latest/freyr/#functions".to_string(),
                             },
