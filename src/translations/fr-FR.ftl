@@ -53,7 +53,7 @@ freyr_about_intro = Dans la mythologie nordique, Freyr est le dieu du soleil, de
 freyr_about_what_is_it = Freyr est une petite bibliothèque de composants pour Dioxus offrant des éléments préconçus comme des boutons, barres de navigation et menus déroulants, pensés pour la simplicité.
 freyr_about_why_built = Ce projet a été créé pour le plaisir, dans le but de proposer des composants légers et faciles à utiliser pour concevoir rapidement une belle interface.
 
-freyr_about_doc = Voir la documentation ici
+freyr_about_doc = Voir la documentation plus en détail ici
 
 header_carousel = Composants de carrousel
 carousel_intro_text = Il existe actuellement trois composants de carrousel différents :

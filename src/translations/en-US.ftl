@@ -53,7 +53,7 @@ freyr_about_intro = In Norse mythology, Freyr is the god of sunshine, peace, and
 freyr_about_what_is_it = Freyr is a small UI component library for Dioxus that provides prebuilt elements like buttons, navbars, and dropdowns, all styled with simplicity and flexibility in mind.
 freyr_about_why_built = This crate was created as a fun side project, aiming to offer lightweight, easy-to-use components that help developers get started quickly with good-looking UI.
 
-freyr_about_doc = See documentation also here
+freyr_about_doc = See more documentation here
 
 header_carousel = Carousel Components
 carousel_intro_text = At the moment there are three different carousel components:

@@ -55,7 +55,7 @@ freyr_about_intro = In der nordischen Mythologie ist Freyr der Gott des Sonnensc
 freyr_about_what_is_it = Freyr ist eine kleine UI-Komponentenbibliothek für Dioxus mit vorgefertigten Elementen wie Buttons, Navigationsleisten und Dropdown-Menüs, gestaltet für Klarheit und Flexibilität.
 freyr_about_why_built = Dieses Projekt wurde als kleines Hobby gestartet, um einfache und ansprechende Komponenten bereitzustellen, die den Einstieg in Dioxus erleichtern.
 
-freyr_about_doc = Hier auch die Dokumentation sehen
+freyr_about_doc = Hier mehr Dokumentation sehen
 
 header_carousel = Karussell-Komponenten
 carousel_intro_text = Derzeit gibt es drei verschiedene Karussell-Komponenten:

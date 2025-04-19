@@ -2,6 +2,7 @@ use crate::components::HomeComponents;
 use crate::Route;
 use dioxus::prelude::*;
 use dioxus_i18n::t;
+use freyr::prelude::*;
 
 #[component]
 pub fn Home() -> Element {
@@ -16,8 +17,15 @@ pub fn Home() -> Element {
                         h4 { class: "text-base sm:text-lg md:text-xl text-slate-300 italic mb-14",
                             {t!("welcome_subtitle")}
                         }
+                        BasicButton {
+                            color: ButtonColor::Freyr,
+                            label: String::from({ t!("freyr_about_doc") }),
+                            link: ButtonUrl {
+                                url: "https://docs.rs/freyr/latest/freyr/#functions".to_string(),
+                            },
+                        }
                     }
-                    h1 { class: "text-xl sm:text-2xl md:text-3xl font-mono font-bold text-indigo-400 mb-20",
+                    h1 { class: "text-xl sm:text-2xl md:text-3xl font-mono font-bold text-indigo-400 mb-20 mt-5 md:mt-10",
                         {t!("header_home")}
                     }
                 }
