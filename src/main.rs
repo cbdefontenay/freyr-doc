@@ -8,6 +8,7 @@ use views::Home;
 use views::NavbarPage;
 use views::TabsPage;
 use views::CarouselPage;
+use views::AccordionPage;
 mod components;
 mod views;
 
@@ -27,6 +28,8 @@ enum Route {
     TabsPage {},
     #[route("/carousel-component")]
     CarouselPage {},
+    #[route("/accordion-component")]
+    AccordionPage {},
 }
 
 // const FAVICON: Asset = asset!("/assets/favicon.ico");

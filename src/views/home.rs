@@ -34,6 +34,9 @@ pub fn Home() -> Element {
                     Link { to: Route::CarouselPage {}, class: "w-full",
                         HomeComponents { title: "Carousel" }
                     }
+                    Link { to: Route::AccordionPage {}, class: "w-full",
+                        HomeComponents { title: "Accordion" }
+                    }
                 }
             }
         }

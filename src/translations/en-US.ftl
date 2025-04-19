@@ -63,3 +63,12 @@ carousel_numbers_title = Carousel with numbers (to go to the next image you also
 carousel_numbers_code_title = Code implementation:
 carousel_timer_title = Carousel with timer (set your own timer this time):
 carousel_timer_code_title = Code implementation:
+
+accordion_title_one = Learn more about Freyr
+accordion_first_text = Freyr is the nicest UI library ever existed
+accordion_subtitle = Optional text displayed here. ignore me if you want!
+accordion_title_two = Learn more about how the moon looks like
+
+standard_accordion = Standard Accordion:
+custom_accordion = Customizable Accordion:
+moon_surface_text = Here you can see the moon from its surface:

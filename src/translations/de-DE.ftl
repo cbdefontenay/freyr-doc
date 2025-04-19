@@ -65,3 +65,12 @@ carousel_numbers_title = Karussell mit Zahlen (zum Weiterblättern muss manuell 
 carousel_numbers_code_title = Code-Beispiel:
 carousel_timer_title = Karussell mit Timer (dieses Mal mit eigenem Zeitgeber):
 carousel_timer_code_title = Code-Beispiel:
+
+accordion_title_one = Erfahre mehr über Freyr
+accordion_first_text = Freyr ist die schönste UI-Bibliothek, die je existierte
+accordion_subtitle = Optionaler Text wird hier angezeigt. Ignoriere mich, wenn du willst!
+accordion_title_two = Erfahre mehr darüber, wie der Mond aussieht
+
+standard_accordion = Standard Akkordeon:
+custom_accordion = Anpassbares Akkordeon:
+moon_surface_text = Hier kannst du den Mond von seiner Oberfläche aus sehen:
