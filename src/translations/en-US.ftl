@@ -45,7 +45,7 @@ tabs_implementation_title = Implementation Example
 
 navbar_implementation_title = Standart navbar implementation example:
 navbar_preview_title = standart navbar preview:
-navbar_preview_subtitle = Please note that if you try the responsivness of this navbar and activate the hamburger menu, this may not look good, that is because it has an index of z-99, as the current navbar of this website, wich is the same one, so please try the navbar of this website to test it.
+navbar_preview_subtitle = Please note that if you test the responsiveness of this navigation bar and activate the hamburger menu, it may not work as expected. This is because the navigation bar is normally positioned at the top. However, you can test the navigation bar of this website, which is similar.
 
 freyr_title = Meet Freyr
 freyr_subtitle = A light and friendly UI kit for Dioxus web apps

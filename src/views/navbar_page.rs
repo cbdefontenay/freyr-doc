@@ -8,10 +8,43 @@ pub fn NavbarPage() -> Element {
     let navbar_config = NavbarConfig {
         background_color: ColorScheme::Freyr,
         nav_header: "Freyr".to_string(),
-        nav_items: vec!["Home".to_string(), "About".to_string(), "Contact".to_string()],
-        nav_links: vec!["/".to_string(), "/about".to_string(), "/contact".to_string()],
+        nav_items: vec![
+            "Home".to_string(),
+            "About".to_string(),
+            "Contact".to_string(),
+        ],
+        nav_links: vec![
+            "/".to_string(),
+            "/about".to_string(),
+            "/contact".to_string(),
+        ],
         nav_item_color: NavItemsColor::Light,
         icon_color: IconColor::White,
+    };
+
+    let dropdown_items = vec![
+        DropdownItem {
+            label: "Home".to_string(),
+            url: Some("/".to_string()),
+        },
+        DropdownItem {
+            label: "About".to_string(),
+            url: Some("/about".to_string()),
+        },
+        DropdownItem::without_url("A Label without route"),
+        DropdownItem {
+            label: "Contact".to_string(),
+            url: None,
+        },
+    ];
+
+    let config_dropdown = DropdownConfig {
+        title: "My dropdown".to_string(),
+        label: dropdown_items,
+        background_color: DropdownColorScheme::Dark,
+        title_color: DropdownTitleColor::Light,
+        labels_color: DropdownLabelsColor::Light,
+        hover_color: DropdownHoverColor::Custom("#47453e"),
     };
 
     rsx! {

@@ -46,8 +46,7 @@ tabs_implementation_title = Implementierungsbeispiel
 
 navbar_implementation_title = Standard Navbar Implementierung:
 navbar_preview_title = Standard Navbar Vorschau:
-
-navbar_preview_subtitle = Bitte beachten Sie, dass das Hamburger-Menü möglicherweise nicht korrekt angezeigt wird, wenn Sie die Reaktionsfähigkeit dieser Navigationsleiste testen. Das liegt daran, dass sie einen z-Index von z-99 hat – genau wie die aktuelle Navigationsleiste dieser Website, da es sich um dieselbe handelt. Bitte testen Sie daher die Navigationsleiste dieser Website, um das Verhalten zu überprüfen.
+navbar_preview_subtitle = Bitte beachte, dass beim Testen der Reaktionsfähigkeit dieser Navbar und beim Aktivieren des Hamburgermenüs möglicherweise nicht alles wie erwartet funktioniert. Das liegt daran, dass die Navbar normalerweise oben positioniert ist. Du kannst jedoch die Navbar dieser Website testen, die ähnlich ist.
 
 freyr_title = Lerne Freyr kennen
 freyr_subtitle = Ein leichtgewichtiges UI-Kit für Dioxus-Webanwendungen

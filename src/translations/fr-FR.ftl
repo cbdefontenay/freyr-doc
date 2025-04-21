@@ -45,7 +45,7 @@ tabs_implementation_title = Exemple d'utilisation :
 
 navbar_implementation_title = Exemple d'utilisation de la barre de navigation standarde :
 navbar_preview_title = Barre de navigation standarde :
-navbar_preview_subtitle = Veuillez noter que si vous testez la réactivité de cette barre de navigation et activez le menu hamburger, cela pourrait ne pas bien s'afficher. C’est parce qu’elle a un index z de z-99, comme la barre de navigation actuelle de ce site, qui est la même. Veuillez donc tester la barre de navigation de ce site pour en vérifier le comportement.
+navbar_preview_subtitle = Veuillez noter que si tu testes la réactivité de cette barre de navigation et actives le menu hamburger, cela risque de ne pas fonctionner comme prévu. C'est parce que la barre de navigation est normalement positionnée en haut. Tu peux en revanche tester la barre de navigation de ce site web, qui est semblable.
 
 freyr_title = Découvrez Freyr
 freyr_subtitle = Une petite bibliothèque UI conviviale pour les apps web Dioxus
