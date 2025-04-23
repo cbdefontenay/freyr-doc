@@ -1,6 +1,6 @@
 use components::Navigation;
 use dioxus::prelude::*;
-use dioxus_i18n::prelude::{i18n, use_init_i18n, I18nConfig, Locale};
+use dioxus_i18n::prelude::{use_init_i18n, I18nConfig, Locale};
 use dioxus_i18n::unic_langid::langid;
 use views::About;
 use views::ButtonPage;
@@ -9,6 +9,7 @@ use views::NavbarPage;
 use views::TabsPage;
 use views::CarouselPage;
 use views::AccordionPage;
+use views::DialogPage;
 mod components;
 mod views;
 
@@ -30,6 +31,8 @@ enum Route {
     CarouselPage {},
     #[route("/accordion-component")]
     AccordionPage {},
+    #[route("/dialog-component")]
+    DialogPage {},
 }
 
 // const FAVICON: Asset = asset!("/assets/favicon.ico");

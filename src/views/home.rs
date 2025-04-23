@@ -31,19 +31,22 @@ pub fn Home() -> Element {
                 }
                 div { class: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center",
                     Link { to: Route::ButtonPage {}, class: "w-full",
-                        HomeComponents { title: {t!("button_component_card")} }
+                        HomeComponents { title: t!("button_component_card") }
                     }
                     Link { to: Route::NavbarPage {}, class: "w-full",
-                        HomeComponents { title: {t!("navbar_component_card")} }
+                        HomeComponents { title: t!("navbar_component_card") }
                     }
                     Link { to: Route::TabsPage {}, class: "w-full",
-                        HomeComponents { title: {t!("tabs_component_card")} }
+                        HomeComponents { title: t!("tabs_component_card") }
                     }
                     Link { to: Route::CarouselPage {}, class: "w-full",
                         HomeComponents { title: "Carousel" }
                     }
                     Link { to: Route::AccordionPage {}, class: "w-full",
                         HomeComponents { title: "Accordion" }
+                    }
+                    Link { to: Route::DialogPage {}, class: "w-full",
+                        HomeComponents { title: "Dialog" }
                     }
                 }
             }

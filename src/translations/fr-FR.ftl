@@ -71,3 +71,11 @@ accordion_title_two = En savoir plus sur l'apparence de la lune
 standard_accordion = Accordéon standard :
 custom_accordion = Accordéon personnalisable :
 moon_surface_text = Ici, tu peux voir la lune depuis sa surface :
+
+dialog_add_todo_label = Ajouter une tâche
+dialog_add_todo_header = Ajouter une nouvelle tâche
+dialog_add_button = Ajouter une tâche
+dialog_close_button_label = Fermer
+
+dialog_header = Ceci est une boîte de dialogue entièrement personnalisable :
+dialog_code_show = Pour voir comment implémenter le code, va consulter cette page :
