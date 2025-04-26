@@ -76,7 +76,7 @@ dialog_add_todo_label = Add To-Do
 dialog_add_todo_header = Add a new To-Do
 dialog_add_button = Add To-Do
 dialog_close_button_label = Close
-
+dialog_code_error = This component is still under development, but if you want you may try it.
 dialog_header = This is a fully customizable Dialog:
 dialog_code_show = To see the code implementation, please refer to this page:
 freyr_dialog_doc = Go to Dialog component on docs.rs

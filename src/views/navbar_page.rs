@@ -7,7 +7,9 @@ use freyr::prelude::*;
 pub fn NavbarPage() -> Element {
     let navbar_config = NavbarConfig {
         background_color: ColorScheme::Freyr,
-        nav_header: "Freyr".to_string(),
+        nav_header: Some(String::from("Freyr")),
+        orientation: Some(Orientation::Right),
+        header_color: HeaderColor::Light,
         nav_items: vec![
             "Home".to_string(),
             "About".to_string(),
@@ -38,7 +40,7 @@ pub fn NavbarPage() -> Element {
         },
     ];
 
-    let config_dropdown = DropdownConfig {
+    let _config_dropdown = DropdownConfig {
         title: "My dropdown".to_string(),
         label: dropdown_items,
         background_color: DropdownColorScheme::Dark,
@@ -57,7 +59,9 @@ pub fn NavbarPage() -> Element {
                         code: r#"// Define tab names and content
 let navbar_config = NavbarConfig {
     background_color: ColorScheme::Freyr,
-    nav_header: "Freyr".to_string(),
+    nav_header: Some(String::from("Freyr")),
+    orientation: Some(Orientation::Right),
+    header_color: HeaderColor::Light,
     nav_items: vec!["Home".to_string(), "About".to_string(), "Contact".to_string()],
     nav_links: vec!["/".to_string(), "/about".to_string(), "/contact".to_string()],
     nav_item_color: NavItemsColor::Light,

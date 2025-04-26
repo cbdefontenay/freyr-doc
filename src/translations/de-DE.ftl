@@ -78,7 +78,7 @@ dialog_add_todo_label = Aufgabe hinzufügen
 dialog_add_todo_header = Neue Aufgabe hinzufügen
 dialog_add_button = Aufgabe hinzufügen
 dialog_close_button_label = Schließen
-
+dialog_code_error = Dieser Komponent wird noch bearbeitet, aber wenn du es magst, kannst du es probieren.
 dialog_header = Dies ist ein vollständig anpassbarer Dialog:
-dialog_code_show = Um die Codeimplementierung zu sehen, besuchen Sie bitte diese Seite:
+dialog_code_show = Um die Codeimplementierung zu sehen, besuch bitte diese Seite:
 freyr_dialog_doc = Die Codeimplementierung auf docs.rs sehen

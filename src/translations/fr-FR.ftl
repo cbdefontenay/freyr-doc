@@ -76,6 +76,6 @@ dialog_add_todo_label = Ajouter une tâche
 dialog_add_todo_header = Ajouter une nouvelle tâche
 dialog_add_button = Ajouter une tâche
 dialog_close_button_label = Fermer
-
+dialog_code_error = Ce component est encore en cours de dévelopement, mais tu peux le tester si tu en as envie.
 dialog_header = Ceci est une boîte de dialogue entièrement personnalisable :
 dialog_code_show = Pour voir comment implémenter le code, va consulter cette page :

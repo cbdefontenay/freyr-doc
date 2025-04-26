@@ -67,8 +67,8 @@ fn MyDialog() -> Element {
     let dialog_props = DialogWithoutButtonProps {
         show_modal: show_dialog,
         dialog_content: Some(rsx! {
-        h2 { class: "text-xl font-semibold mb-4", "Add a new To-Do" }
-    }),
+            h2 { class: "text-xl font-semibold mb-4", "Add a new To-Do" }
+        }),
         wrap_class: "bg-white rounded-lg shadow-lg w-full max-w-md p-6".to_string(),
         close_button_label: Some("Close".to_string()),
         close_button_class: Some(
@@ -78,11 +78,11 @@ fn MyDialog() -> Element {
     };
 
     rsx!{
-    button {
-        class: "bg-blue-800 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-900 transition",
-        onclick: move |_| show_dialog.set(!show_dialog()),
-        "Show Dialog"
-    }
+        button {
+            class: "bg-blue-800 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-900 transition",
+            onclick: move |_| show_dialog.set(!show_dialog()),
+            "Show Dialog"
+        }
         DialogWithoutButton { ..dialog_props }
     }
 }
