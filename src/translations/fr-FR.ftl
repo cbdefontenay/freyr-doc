@@ -49,7 +49,7 @@ navbar_preview_subtitle = Veuillez noter que si tu testes la réactivité de cet
 
 freyr_title = Découvrez Freyr
 freyr_subtitle = Une petite bibliothèque UI conviviale pour les apps web Dioxus
-freyr_about_intro = Dans la mythologie nordique, Freyr est le dieu du soleil, de la paix et de la croissance — souvent associé à la beauté et à la prospérité.
+freyr_about_intro = Dans la mythologie nordique, Freyr est un dieu magnifique, associé à la fertilité et la croissance.
 freyr_about_what_is_it = Freyr est une petite bibliothèque de composants pour Dioxus offrant des éléments préconçus comme des boutons, barres de navigation et menus déroulants, pensés pour la simplicité.
 freyr_about_why_built = Ce projet a été créé pour le plaisir, dans le but de proposer des composants légers et faciles à utiliser pour concevoir rapidement une belle interface.
 
