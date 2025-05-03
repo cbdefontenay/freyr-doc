@@ -11,7 +11,9 @@ pub fn DialogPage() -> Element {
                 //     {t!("dialog_header")}
                 // }
                 // div { class: "flex my-10 justify-center items-center", DialogComponent {} }
-                div { class: "flex my-10 justify-center items-center text-slate-100 italic",  {t!("dialog_code_error")} }
+                div { class: "flex my-10 justify-center items-center text-slate-100 italic",
+                    {t!("dialog_code_error")}
+                }
                 div { class: "text-lg text-slate-200 font-semibold", {t!("dialog_code_show")} }
                 div { class: "flex items-center flex-shrink-0 justify-center my-10",
                     BasicButton {

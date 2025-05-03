@@ -42,7 +42,7 @@ tabs_barbarossa_title = Friedrich Barbarossa
 tabs_barbarossa_description = Friedrich Barbarossa (1122-1190) war einer der berühmtesten römisch-deutschen Kaiser. Bekannt für seinen Ehrgeiz und Charisma, strebte er danach, den Ruhm des Römischen Reiches wiederherzustellen, führte Feldzüge in Italien und nahm am Dritten Kreuzzug teil.
 tabs_page_header = So sieht ein benutzerdefinierter Tab aus:
 
-tabs_implementation_title = Implementierungsbeispiel
+tabs_implementation_title = Implementierungsbeispiel:
 
 navbar_implementation_title = Standard Navbar Implementierung:
 navbar_preview_title = Standard Navbar Vorschau:
@@ -82,3 +82,8 @@ dialog_code_error = Dieser Komponent wird noch bearbeitet, aber wenn du es magst
 dialog_header = Dies ist ein vollständig anpassbarer Dialog:
 dialog_code_show = Um die Codeimplementierung zu sehen, besuch bitte diese Seite:
 freyr_dialog_doc = Die Codeimplementierung auf docs.rs sehen
+
+tabs_secondary_header_one = Die Bretagne
+tabs_secondary_header_two = Okzitanien
+tabs_secondary_text_one = Die Bretagne, auf Bretonisch „Breizh“, ist eine schöne Region im Westen Frankreichs. Umgeben vom Meer ist die bretonische Kultur von keltischen Sagen und Legenden geprägt, darunter die des legendären Königs Artus.
+tabs_secondary_text_two = Okzitanien ist eine Region im Süden Frankreichs. Ihre Sprache ähnelt stark dem Französischen und dem Katalanischen.

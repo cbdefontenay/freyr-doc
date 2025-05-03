@@ -6,10 +6,10 @@ use freyr::prelude::*;
 #[component]
 
 pub fn CarouselPage() -> Element {
-    const MARS: Asset = asset!("/assets/images/mars.jpg");
-    const PLUTO: Asset = asset!("/assets/images/pluto.jpg");
-    const SATELLITE: Asset = asset!("/assets/images/satellite.jpg");
-    const MOON: Asset = asset!("./assets/images/moon.jpg");
+    const MARS: Asset = asset!("/assets/images/mars.jpg", ImageAssetOptions::new().with_webp());
+    const PLUTO: Asset = asset!("/assets/images/pluto.jpg", ImageAssetOptions::new().with_webp());
+    const SATELLITE: Asset = asset!("/assets/images/satellite.jpg", ImageAssetOptions::new().with_webp());
+    const MOON: Asset = asset!("./assets/images/moon.jpg", ImageAssetOptions::new().with_webp());
 
     let carousel_items = vec![
         CarouselItem::new(MARS, String::from("Mars")),

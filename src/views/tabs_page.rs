@@ -1,4 +1,4 @@
-use crate::components::CodeBlock;
+use crate::components::{CodeBlock, TabsSecondaryComponent};
 use dioxus::prelude::*;
 use dioxus_i18n::t;
 use freyr::prelude::*;
@@ -59,6 +59,14 @@ pub fn TabsPage() -> Element {
     rsx! {
         div { class: "min-h-screen py-20 px-4",
             div { class: "max-w-4xl mx-auto flex flex-col items-center",
+                    h1 {class:"mb-10 text-slate-200 text-lg md:text-2xl", "Tabs primary:"}
+                div { class: "flex flex-col mb-10 flex justify-center",
+                    TabsPrimary {
+                        tabs_names,
+                        custom_texts: Some(custom_text),
+                        custom_color: TabsColor::Freyr,
+                    }
+                }
 
                 div { class: "w-full mt-12 bg-white p-6 rounded-xl shadow-md",
                     h3 { class: "text-xl font-bold text-slate-800 mb-4", {t!("tabs_implementation_title")} }
@@ -78,7 +86,7 @@ let content = vec![
 
 // Render the tabs
 rsx! {
-    Tabs {
+    TabsPrimary {
         tabs_names: tabs,
         custom_texts: Some(content),
         custom_color: TabsColor::Freyr
@@ -87,13 +95,10 @@ rsx! {
                     }
                 }
 
-                div { class: "mt-10 flex justify-center bg-slate-200",
-                    Tabs {
-                        tabs_names,
-                        custom_texts: Some(custom_text),
-                        custom_color: TabsColor::Freyr,
-                    }
-                }
+            }
+
+            div { class: "flex flex-col items-center justify-center mt-20",
+                TabsSecondaryComponent {}
             }
         }
     }

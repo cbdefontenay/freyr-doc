@@ -41,7 +41,7 @@ tabs_barbarossa_title = Frederick Barbarossa
 tabs_barbarossa_description = Frederick Barbarossa (1122–1190) was one of the most famous Holy Roman Emperors. Renowned for his ambition and charisma, he sought to restore the glory of the Roman Empire, leading campaigns in Italy and participating in the Third Crusade.
 tabs_page_header = Here is how a custom tab looks like:
 
-tabs_implementation_title = Implementation Example
+tabs_implementation_title = Implementation example:
 
 navbar_implementation_title = Standart navbar implementation example:
 navbar_preview_title = standart navbar preview:
@@ -80,3 +80,8 @@ dialog_code_error = This component is still under development, but if you want y
 dialog_header = This is a fully customizable Dialog:
 dialog_code_show = To see the code implementation, please refer to this page:
 freyr_dialog_doc = Go to Dialog component on docs.rs
+
+tabs_secondary_header_one = Brittany
+tabs_secondary_header_two = Occitania
+tabs_secondary_text_one = Brittany, also called "Breizh" in the Breton language, is a beautiful region in the west of France. Surrounded by the sea, Breton culture is steeped in Celtic tales and legends, including that of the legendary King Arthur.
+tabs_secondary_text_two = Occitanie is a region in the south of France. Its language closely resembles both French and Catalan.

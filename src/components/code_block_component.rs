@@ -12,7 +12,7 @@ pub fn CodeBlock(code: String) -> Element {
                 }
             }
             pre { class: "p-4 overflow-x-auto",
-                code { class: "text-gray-100 font-mono text-sm sm:text-base", "{code}" }
+                code { class: "text-gray-100 font-mono text-sm sm:text-base", {code} }
             }
         }
     }
