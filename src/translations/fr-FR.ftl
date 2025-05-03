@@ -84,3 +84,5 @@ tabs_secondary_header_one = Bretagne
 tabs_secondary_header_two = Occitanie
 tabs_secondary_text_one = La Bretagne, "Breizh" en langue bretonne, est une belle région de l'Ouest de la France. Entourée par la mer, la culture bretonne est empreinte de contes et de légendes celtiques, dont celle du légendaire roi Arthur.
 tabs_secondary_text_two = L'Occitanie est une région du Sud de la France. Sa langue ressemble énormément au français et au catalan.
+
+accordion_left = Accordion avec symbole et titre à gauche :

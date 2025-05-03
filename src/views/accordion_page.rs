@@ -99,6 +99,46 @@ pub fn AccordionPage() -> Element {
             }"#.to_string(),
                     }
                 }
+
+                div {
+                    class: "mt-20",
+                    h1 { class: "text-slate-100 text-xl sm:text-2xl font-bold mb-5 text-center", {t!("accordion_left")} }
+
+                    AccordionLeft {
+                            accordion_width: None,
+                            accordion_header_bg_color: Some("#821e43".to_string()),
+                            title: "Custom Accordion".to_string(),
+                            title_color: Some(String::from("#ede9df")),
+                            icon_color: AccordionIconColor::Light,
+                            accordion_open_max_height: Some("600px".to_string()),
+                            children: rsx! {
+                                    div { class:"text-slate-100", "Custom content here" }
+                                },
+                         }
+
+                    h3 {
+                        class: "text-white text-base sm:text-lg font-medium mb-4 mt-10 text-center",
+                        {t!("carousel_code_label")}
+                    }
+
+                    CodeBlock {
+                code: "
+        AccordionLeft {
+            accordion_width: None,
+            // You have to pass colors as you would in a normal CSS file
+            accordion_header_bg_color: Some(\"#821e43\".to_string()),
+            title: \"Custom Accordion\".to_string(),
+            title_color: Some(String::from(\"#ede9df\")),
+            icon_color: AccordionIconColor::Light,
+            // Doesn't have to be \"px\", could also be \"%\", \"em\" or \"rem\" values for example
+            accordion_open_max_height: Some(\"600px\".to_string()),
+            children: rsx! {
+                    div { class:\"text-slate-100\", \"Custom content here\" }
+                },
+            }"
+                    .to_string(),
+                     }
+                }
             }
         }
     }

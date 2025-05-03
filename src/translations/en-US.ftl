@@ -85,3 +85,5 @@ tabs_secondary_header_one = Brittany
 tabs_secondary_header_two = Occitania
 tabs_secondary_text_one = Brittany, also called "Breizh" in the Breton language, is a beautiful region in the west of France. Surrounded by the sea, Breton culture is steeped in Celtic tales and legends, including that of the legendary King Arthur.
 tabs_secondary_text_two = Occitanie is a region in the south of France. Its language closely resembles both French and Catalan.
+
+accordion_left = Accordion where the title and icon are placed on the left:

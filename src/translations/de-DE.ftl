@@ -87,3 +87,5 @@ tabs_secondary_header_one = Die Bretagne
 tabs_secondary_header_two = Okzitanien
 tabs_secondary_text_one = Die Bretagne, auf Bretonisch „Breizh“, ist eine schöne Region im Westen Frankreichs. Umgeben vom Meer ist die bretonische Kultur von keltischen Sagen und Legenden geprägt, darunter die des legendären Königs Artus.
 tabs_secondary_text_two = Okzitanien ist eine Region im Süden Frankreichs. Ihre Sprache ähnelt stark dem Französischen und dem Katalanischen.
+
+accordion_left = Accordion, wo der Titel und das Symbol links stehen:
