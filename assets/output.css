@@ -1208,11 +1208,6 @@
       width: calc(var(--spacing) * 96);
     }
   }
-  .md\:w-\[00px\] {
-    @media (width >= 48rem) {
-      width: 00px;
-    }
-  }
   .md\:w-\[600px\] {
     @media (width >= 48rem) {
       width: 600px;
@@ -1221,11 +1216,6 @@
   .md\:w-\[850px\] {
     @media (width >= 48rem) {
       width: 850px;
-    }
-  }
-  .md\:w-\[900px\] {
-    @media (width >= 48rem) {
-      width: 900px;
     }
   }
   .md\:max-w-lg {
