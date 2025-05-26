@@ -15,15 +15,15 @@ button_with_routing_title = 🔗 Button mit Navigation
 button_with_routing_description = Dieser Button verwendet Freyr's Design und fungiert gleichzeitig als Link. Ein Klick darauf navigiert den Benutzer zur Startseite (\/).
 button_with_routing_label = 🏠 Zur Startseite
 
-button_colors_title = Sie können auch die Farbe basierend auf den verfügbaren Optionen ändern (Primary, Freyr, Success, Danger, Black, Transparent):
+button_colors_title = Du kannst auch die Farbe basierend auf den verfügbaren Optionen ändern (Primary, Freyr, Success, Danger, Black, Transparent):
 button_colors_success_label = Ich möchte nach Hause
 
 button_without_routing_title = ⚙️ Button ohne Navigation
-button_without_routing_description = Dieser Button ist rein visuell. Sie können ihn beispielsweise einfach nur zur Dekoration verwenden.
-button_without_routing_label = 👋 Hallo
+button_without_routing_description = Dieser Button ist rein visuell. Du kannst ihn zum Beispiel einfach nur zur Dekoration verwenden.
+button_without_routing_label = 👋 Moin
 
 button_with_event_title = Button mit Event
-button_with_event_description = Sie können diesen Button für beliebige Aktionen verwenden, wie zum Beispiel einen einfachen Zähler:
+button_with_event_description = Du kannst diesen Button für beliebige Aktionen verwenden, wie zum Beispiel einen einfachen Zähler:
 button_with_event_label = Erhöhen
 
 tabs_component_card = Tabs
