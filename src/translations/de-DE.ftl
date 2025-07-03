@@ -88,3 +88,11 @@ tabs_secondary_text_one = Die Bretagne, auf Bretonisch „Breizh“, ist eine sc
 tabs_secondary_text_two = Okzitanien ist eine Region im Süden Frankreichs. Ihre Sprache ähnelt stark dem Französischen und dem Katalanischen.
 
 accordion_left = Accordion, wo der Titel und das Symbol links stehen:
+
+dropdown_header = Dropdown Komponenten
+dropdown_first_dropdown = Einfaches Dropdown mit Routing oder einfachem Text:
+dropdown_second_dropdown = Dropdown mit verbundenen Ereignissen:
+dropdown_count = Ergebniss:
+dropdown_counter = Zähler
+dropdown_increment = Erhöhen
+dropdown_decrement = Verringern

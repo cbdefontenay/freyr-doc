@@ -40,28 +40,29 @@ pub fn DialogComponent() -> Element {
             h1 { class: "text-xl text-slate-100 mt-10 mb-5", {t!("dialog_implementation")} }
             CodeBlock {
                 code: "
-            let dialog_props = DialogWithoutButtonProps {
-                 show_modal: show_dialog,
-                 dialog_content: Some(rsx! {
-                 h2 { class: \"class-1\", \"Add a new Todo\" }
-                 input {
-                 r#type: \"text\",
-                 class: \"input-class\",
-                 placeholder: \"Enter something...\"}}),
-                 wrap_class: \"my-wrap-class\".to_string(),
-                 close_button_label: Some(\"Close\".to_string()),
-                 close_button_class: Some(\"my-other-class\".to_string()),
-                 cross_svg_class: Some(\"my-svg-super-class\".to_string()),};
-                                            
-                rsx! {
-                    button {
-                    class: \"button-class\",
-                    onclick: move |_| show_dialog.set(true),
-                    \"Show Dialog\"
-                }
-                                            
-                Dialog { ..dialog_props }
-            }".to_string(),
+                                    let dialog_props = DialogWithoutButtonProps {
+                                         show_modal: show_dialog,
+                                         dialog_content: Some(rsx! {
+                                         h2 { class: \"class-1\", \"Add a new Todo\" }
+                                         input {
+                                         r#type: \"text\",
+                                         class: \"input-class\",
+                                         placeholder: \"Enter something...\"}}),
+                                         wrap_class: \"my-wrap-class\".to_string(),
+                                         close_button_label: Some(\"Close\".to_string()),
+                                         close_button_class: Some(\"my-other-class\".to_string()),
+                                         cross_svg_class: Some(\"my-svg-super-class\".to_string()),};
+                                                                    
+                                        rsx! {
+                                            button {
+                                            class: \"button-class\",
+                                            onclick: move |_| show_dialog.set(true),
+                                            \"Show Dialog\"
+                                        }
+                                                                    
+                                        Dialog { ..dialog_props }
+                                    }"
+                    .to_string(),
             }
         }
     }

@@ -62,18 +62,18 @@ pub fn TabsSecondaryComponent() -> Element {
             h1 { class: "text-xl text-slate-100 mt-10 mb-5", {t!("tabs_implementation_title")} }
             CodeBlock {
                 code: "
-                                             TabsSecondary {
-                                                   tabs_names, // Use a Vec<String>
-                                                   custom_texts: Some(custom_text), // Use a Vec<Element>
-                                                   tab_radius: Some(\"1em 1em 1em 1em\".to_string()),
-                                                   tab_max_width: Some(\"800px\".to_string()),
-                                                   tab_header_hover: Some(\"#2e5a75\".to_string()),
-                                                   header_bg_color: Some(\"#3795BD\".to_string()),
-                                                   header_text_color: Some(\"#e8d7d5\".to_string()),
-                                                   active_bg_color: Some(\"#2fa2d4\".to_string()),
-                                                   active_text_color: Some(\"#e6ebed\".to_string()),
-                                                   tab_shadow: None,
-                                                 }"
+                                                                     TabsSecondary {
+                                                                           tabs_names, // Use a Vec<String>
+                                                                           custom_texts: Some(custom_text), // Use a Vec<Element>
+                                                                           tab_radius: Some(\"1em 1em 1em 1em\".to_string()),
+                                                                           tab_max_width: Some(\"800px\".to_string()),
+                                                                           tab_header_hover: Some(\"#2e5a75\".to_string()),
+                                                                           header_bg_color: Some(\"#3795BD\".to_string()),
+                                                                           header_text_color: Some(\"#e8d7d5\".to_string()),
+                                                                           active_bg_color: Some(\"#2fa2d4\".to_string()),
+                                                                           active_text_color: Some(\"#e6ebed\".to_string()),
+                                                                           tab_shadow: None,
+                                                                         }"
                     .to_string(),
             }
         }

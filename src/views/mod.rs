@@ -7,6 +7,7 @@ mod carousel_page;
 mod accordion_page;
 mod dialog_page;
 mod spinner_page;
+mod dropdown_page;
 
 pub use home::Home;
 pub use about::About;
@@ -17,3 +18,4 @@ pub use carousel_page::CarouselPage;
 pub use accordion_page::AccordionPage;
 pub use dialog_page::*;
 pub use spinner_page::*;
+pub use dropdown_page::*;

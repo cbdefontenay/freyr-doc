@@ -48,6 +48,9 @@ pub fn Home() -> Element {
                     Link { to: Route::DialogPage {}, class: "w-full",
                         HomeComponents { title: "Dialog" }
                     }
+                    Link { to: Route::DropdownPage {}, class: "w-full",
+                        HomeComponents { title: "Dropdown" }
+                    }
                 }
             }
         }

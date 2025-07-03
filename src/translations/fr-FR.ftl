@@ -86,3 +86,10 @@ tabs_secondary_text_one = La Bretagne, "Breizh" en langue bretonne, est une bell
 tabs_secondary_text_two = L'Occitanie est une région du Sud de la France. Sa langue ressemble énormément au français et au catalan.
 
 accordion_left = Accordion avec symbole et titre à gauche :
+dropdown_header = Composants dropdown
+dropdown_first_dropdown = Dropdown (Menu déroulant) simple avec routage ou texte simple :
+dropdown_second_dropdown = Dropdown avec événements attachés :
+dropdown_count = Résultat :
+dropdown_counter = Compteur
+dropdown_increment = Incrémenter
+dropdown_decrement = Décrémenter

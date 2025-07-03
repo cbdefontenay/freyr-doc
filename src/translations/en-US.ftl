@@ -79,7 +79,7 @@ dialog_placeholder = Enter something...
 dialog_close = Close
 dialog_add_todo = Add a new Todo
 dialog_add_todo_label = Add Todo
-dialog_implementation = Code implementation
+dialog_implementation = Code implementation:
 
 tabs_secondary_header_one = Brittany
 tabs_secondary_header_two = Occitania
@@ -87,3 +87,11 @@ tabs_secondary_text_one = Brittany, also called "Breizh" in the Breton language,
 tabs_secondary_text_two = Occitanie is a region in the south of France. Its language closely resembles both French and Catalan.
 
 accordion_left = Accordion where the title and icon are placed on the left:
+
+dropdown_header = Dropdown components
+dropdown_first_dropdown = Simple dropdown with routing or simple text:
+dropdown_second_dropdown = Dropdown with events attached:
+dropdown_count = Count:
+dropdown_counter = Counter
+dropdown_increment = Increment
+dropdown_decrement = Decrement

@@ -10,6 +10,7 @@ use views::TabsPage;
 use views::CarouselPage;
 use views::AccordionPage;
 use views::DialogPage;
+use views::DropdownPage;
 mod components;
 mod views;
 
@@ -33,6 +34,8 @@ enum Route {
     AccordionPage {},
     #[route("/dialog-component")]
     DialogPage {},
+    #[route("/dropdown-component")]
+    DropdownPage {},
 }
 
 // const FAVICON: Asset = asset!("/assets/favicon.ico");
