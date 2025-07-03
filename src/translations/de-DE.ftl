@@ -74,14 +74,13 @@ standard_accordion = Standard Akkordeon:
 custom_accordion = Anpassbares Akkordeon:
 moon_surface_text = Hier kannst du den Mond von seiner Oberfläche aus sehen:
 
-dialog_add_todo_label = Aufgabe hinzufügen
-dialog_add_todo_header = Neue Aufgabe hinzufügen
-dialog_add_button = Aufgabe hinzufügen
-dialog_close_button_label = Schließen
-dialog_code_error = Dieser Komponent wird noch bearbeitet, aber wenn du es magst, kannst du es probieren.
-dialog_header = Dies ist ein vollständig anpassbarer Dialog:
-dialog_code_show = Um die Codeimplementierung zu sehen, besuch bitte diese Seite:
-freyr_dialog_doc = Die Codeimplementierung auf docs.rs sehen
+dialog_title = Dialogkomponente
+dialog_show_dialog = Dialog anzeigen
+dialog_placeholder = Etwas eingeben...
+dialog_close = Schließen
+dialog_add_todo = Neues Todo hinzufügen
+dialog_add_todo_label = Todo hinzufügen
+dialog_implementation = Code Beispiel
 
 tabs_secondary_header_one = Die Bretagne
 tabs_secondary_header_two = Okzitanien
