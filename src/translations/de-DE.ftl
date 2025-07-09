@@ -96,3 +96,5 @@ dropdown_count = Ergebniss:
 dropdown_counter = Zähler
 dropdown_increment = Erhöhen
 dropdown_decrement = Verringern
+
+spinner_header = Spinner Komponent

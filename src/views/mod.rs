@@ -17,5 +17,5 @@ pub use tabs_page::TabsPage;
 pub use carousel_page::CarouselPage;
 pub use accordion_page::AccordionPage;
 pub use dialog_page::*;
-pub use spinner_page::*;
+pub use spinner_page::SpinnerPage;
 pub use dropdown_page::*;

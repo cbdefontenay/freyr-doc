@@ -51,6 +51,9 @@ pub fn Home() -> Element {
                     Link { to: Route::DropdownPage {}, class: "w-full",
                         HomeComponents { title: "Dropdown" }
                     }
+                    Link { to: Route::SpinnerPage {}, class: "w-full",
+                        HomeComponents { title: "Spinner" }
+                    }
                 }
             }
         }

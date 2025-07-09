@@ -93,3 +93,5 @@ dropdown_count = Résultat :
 dropdown_counter = Compteur
 dropdown_increment = Incrémenter
 dropdown_decrement = Décrémenter
+
+spinner_header = Component spinner

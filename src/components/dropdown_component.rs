@@ -33,7 +33,7 @@ pub fn DropdownComponent() -> Element {
 
     rsx! {
         div { class: "w-full min-h-screen flex flex-col items-center p-4 bg-gray-50 dark:bg-slate-900",
-            div { class: "w-full max-w-4xl bg-slate-800 rounded-xl mt-12 sm:mt-16 p-4 sm:p-6 shadow-lg",
+            div { class: "w-full max-w-4xl bg-slate-700 rounded-xl mt-12 sm:mt-16 p-4 sm:p-6 shadow-lg",
                 h1 { class: "text-slate-100 text-xl sm:text-2xl font-bold mb-5 text-center mb-5", {t!("dropdown_header")} }
                 div{class:"flex flex-col w-full mt-10",
                     h2{class:"text-lg font-bold justify-start mb-5 text-blue-300", {t!("dropdown_first_dropdown")} }

@@ -719,6 +719,9 @@
   .items-center {
     align-items: center;
   }
+  .justify-between {
+    justify-content: space-between;
+  }
   .justify-center {
     justify-content: center;
   }
@@ -795,6 +798,9 @@
   .bg-gray-50 {
     background-color: var(--color-gray-50);
   }
+  .bg-gray-100 {
+    background-color: var(--color-gray-100);
+  }
   .bg-gray-700 {
     background-color: var(--color-gray-700);
   }
@@ -818,6 +824,12 @@
   }
   .bg-slate-100 {
     background-color: var(--color-slate-100);
+  }
+  .bg-slate-600 {
+    background-color: var(--color-slate-600);
+  }
+  .bg-slate-700 {
+    background-color: var(--color-slate-700);
   }
   .bg-slate-800 {
     background-color: var(--color-slate-800);
@@ -928,9 +940,6 @@
     --tw-tracking: var(--tracking-tight);
     letter-spacing: var(--tracking-tight);
   }
-  .text-blue-100 {
-    color: var(--color-blue-100);
-  }
   .text-blue-300 {
     color: var(--color-blue-300);
   }
@@ -1036,14 +1045,14 @@
     --tw-ease: var(--ease-out);
     transition-timing-function: var(--ease-out);
   }
-  .\[m\:n�h�iʴz�Q��\#�W�2\10 \] {
-    m: n�h�iʴz�Q��#�W�2;
-  }
-  .\[m\:n�h�iʴz�Q��\#�W�7\10 \] {
-    m: n�h�iʴz�Q��#�W�7;
-  }
   .\[m\:n�h�iʴz�Q��\#�W�A\10 \] {
     m: n�h�iʴz�Q��#�W�A;
+  }
+  .\[m\:n�h�iʴz�Q��\#�W��\10 \] {
+    m: n�h�iʴz�Q��#�W��;
+  }
+  .\[m\:n�h�iʴz�Q��\#�W��\+\] {
+    m: n�h�iʴz�Q��#�W��+;
   }
   .hover\:scale-105 {
     &:hover {
@@ -1249,6 +1258,16 @@
   .lg\:grid-cols-3 {
     @media (width >= 64rem) {
       grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  .dark\:bg-slate-700 {
+    @media (prefers-color-scheme: dark) {
+      background-color: var(--color-slate-700);
+    }
+  }
+  .dark\:bg-slate-800 {
+    @media (prefers-color-scheme: dark) {
+      background-color: var(--color-slate-800);
     }
   }
   .dark\:bg-slate-900 {
